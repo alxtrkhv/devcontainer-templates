@@ -1,0 +1,28 @@
+{
+  "name": "Ubuntu Dev Container",
+  "dockerComposeFile": "./docker-compose.yml",
+  "service": "app",
+  "workspaceFolder": "/workspace",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.vscode-pylance",
+        "ms-python.python",
+        "ms-python.debugpy",
+        "ms-python.vscode-python-envs",
+        "charliermarsh.ruff",
+        "mtxr.sqltools",
+        "mtxr.sqltools-driver-pg",
+        "svelte.svelte-vscode",
+        "bradlc.vscode-tailwindcss",
+        "mtxr.sqltools-driver-sqlite",
+        "nefrob.vscode-just-syntax",
+        "esbenp.prettier-vscode",
+        "astro-build.astro-vscode"
+      ],
+      "settings": {}
+    }
+  },
+  "remoteUser": "ubuntu",
+  "features": {}
+}

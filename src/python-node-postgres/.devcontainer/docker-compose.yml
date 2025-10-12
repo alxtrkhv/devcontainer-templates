@@ -1,0 +1,30 @@
+services:
+  app:
+    build:
+      context: ..
+      dockerfile: .devcontainer/Dockerfile
+    command: /bin/sh -c "while sleep 1000; do :; done"
+    ports:
+      - "8000:8000"
+    volumes:
+      - ..:/workspace
+    working_dir: /workspace
+    environment:
+      - DATABASE_URL=postgresql://db:db@db:5432/db
+    depends_on:
+      - db
+    user: ubuntu
+
+  db:
+    image: postgres:${templateOption:postgresVersion}
+    environment:
+      - POSTGRES_USER=db
+      - POSTGRES_PASSWORD=db
+      - POSTGRES_DB=db
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+
+volumes:
+  postgres_data:

@@ -1,0 +1,74 @@
+{
+  "id": "python-node-postgres",
+  "version": "1.0.0",
+  "name": "Python, Node.js & PostgreSQL",
+  "description": "Development container with Python, Node.js, PostgreSQL, and modern tooling (mise, uv, just)",
+  "documentationURL": "https://github.com/alxtrkhv/python-node-postgres-devcontainer",
+  "platforms": [
+    "Python",
+    "Node.js",
+    "JavaScript",
+    "TypeScript",
+    "PostgreSQL"
+  ],
+  "publisher": "Alexander Terekhov",
+  "keywords": [
+    "python",
+    "node",
+    "nodejs",
+    "postgres",
+    "postgresql",
+    "mise",
+    "uv",
+    "ubuntu",
+    "fullstack",
+    "just"
+  ],
+  "options": {
+    "pythonVersion": {
+      "type": "string",
+      "description": "Python version to install via mise",
+      "proposals": [
+        "3.14.0",
+        "3.13.8",
+        "3.12.12",
+        "3.11.14",
+        "3.10.19",
+        "3.9.24"
+      ],
+      "default": "3.14.0"
+    },
+    "nodeVersion": {
+      "type": "string",
+      "description": "Node.js version to install via mise",
+      "proposals": [
+        "24.10.0",
+        "22.20.0",
+        "20.19.5"
+      ],
+      "default": "24.10.0"
+    },
+    "postgresVersion": {
+      "type": "string",
+      "description": "PostgreSQL version for the database service",
+      "proposals": [
+        "18.0",
+        "17.6",
+        "16.10",
+        "15.14",
+        "14.19"
+      ],
+      "default": "18.0"
+    },
+    "ubuntuVersion": {
+      "type": "string",
+      "description": "Ubuntu base image version",
+      "proposals": [
+        "25.10",
+        "25.04",
+        "24.04"
+      ],
+      "default": "25.04"
+    }
+  }
+}
