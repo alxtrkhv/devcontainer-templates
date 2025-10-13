@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "name": "Python, Node.js & PostgreSQL",
   "description": "Development container with Python, Node.js, PostgreSQL, and modern tooling (mise, uv, just)",
-  "documentationURL": "https://github.com/alxtrkhv/python-node-postgres-devcontainer",
+  "documentationURL": "https://github.com/alxtrkhv/devcontainer-templates",
   "platforms": [
     "Python",
     "Node.js",
