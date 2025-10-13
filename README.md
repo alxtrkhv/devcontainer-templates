@@ -1,4 +1,4 @@
-# Dev Container Template
+# Dev Container Templates
 
 This repository contains a Dev Container templates for development.
 
