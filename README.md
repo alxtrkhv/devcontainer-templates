@@ -1,8 +1,8 @@
-# Python, Node.js & PostgreSQL Dev Container Template
+# Dev Container Template
 
-This repository contains a Dev Container template for Python, Node.js, and PostgreSQL development.
+This repository contains a Dev Container templates for development.
 
-## Template
+## Templates
 
 ### python-node-postgres
 
@@ -10,9 +10,9 @@ Development container with Python, Node.js, PostgreSQL, and modern tooling (mise
 
 **Features:**
 
-- Python (configurable version via mise)
-- Node.js (configurable version via mise)
-- PostgreSQL database service
+- Python
+- Node.js
+- PostgreSQL (via Docker Compose)
 - Modern tooling: mise, uv, just
 - Ubuntu base image
 
