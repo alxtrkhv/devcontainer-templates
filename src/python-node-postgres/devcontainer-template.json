@@ -29,36 +29,36 @@
       "type": "string",
       "description": "Python version to install via mise",
       "proposals": [
-        "3.14.0",
-        "3.13.8",
+        "3.14.2",
+        "3.13.11",
         "3.12.12",
         "3.11.14",
-        "3.10.19",
-        "3.9.24"
+        "3.10.19"
       ],
-      "default": "3.14.0"
+      "default": "3.14.2"
     },
     "nodeVersion": {
       "type": "string",
       "description": "Node.js version to install via mise",
       "proposals": [
-        "24.10.0",
-        "22.20.0",
-        "20.19.5"
+        "25.2.1",
+        "24.12.0",
+        "22.21.1",
+        "20.19.6"
       ],
-      "default": "24.10.0"
+      "default": "24.12.0"
     },
     "postgresVersion": {
       "type": "string",
       "description": "PostgreSQL version for the database service",
       "proposals": [
-        "18.0",
-        "17.6",
-        "16.10",
-        "15.14",
-        "14.19"
+        "18.1",
+        "17.7",
+        "16.11",
+        "15.15",
+        "14.20"
       ],
-      "default": "18.0"
+      "default": "18.1"
     },
     "ubuntuVersion": {
       "type": "string",
