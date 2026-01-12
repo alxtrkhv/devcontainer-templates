@@ -69,6 +69,17 @@
         "24.04"
       ],
       "default": "25.04"
+    },
+    "packageManager": {
+      "type": "string",
+      "description": "Node.js package manager to install",
+      "proposals": [
+        "pnpm",
+        "npm",
+        "yarn",
+        "bun"
+      ],
+      "default": "pnpm"
     }
   }
 }

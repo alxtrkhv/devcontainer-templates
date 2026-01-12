@@ -18,10 +18,11 @@ Development container with Python, Node.js, PostgreSQL, and modern tooling (mise
 
 **Options:**
 
-- `pythonVersion`: Python version to install via mise (default: 3.14.0)
-- `nodeVersion`: Node.js version to install via mise (default: 24.10.0)
-- `postgresVersion`: PostgreSQL version for the database service (default: 18.0)
+- `pythonVersion`: Python version to install via mise (default: 3.14.2)
+- `nodeVersion`: Node.js version to install via mise (default: 24.12.0)
+- `postgresVersion`: PostgreSQL version for the database service (default: 18.1)
 - `ubuntuVersion`: Ubuntu base image version (default: 25.04)
+- `packageManager`: Node.js package manager to install (default: pnpm)
 
 ## License
 

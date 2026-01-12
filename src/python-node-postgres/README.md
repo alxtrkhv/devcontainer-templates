@@ -7,10 +7,11 @@ Development container with Python, Node.js, PostgreSQL, and modern tooling (mise
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| pythonVersion | Python version to install via mise | string | 3.14.0 |
-| nodeVersion | Node.js version to install via mise | string | 24.10.0 |
-| postgresVersion | PostgreSQL version for the database service | string | 18.0 |
+| pythonVersion | Python version to install via mise | string | 3.14.2 |
+| nodeVersion | Node.js version to install via mise | string | 24.12.0 |
+| postgresVersion | PostgreSQL version for the database service | string | 18.1 |
 | ubuntuVersion | Ubuntu base image version | string | 25.04 |
+| packageManager | Node.js package manager to install | string | pnpm |
 
 
 
