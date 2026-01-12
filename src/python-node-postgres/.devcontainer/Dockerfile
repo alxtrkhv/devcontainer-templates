@@ -34,7 +34,7 @@ RUN mise use -gy python@$PYTHON_VERSION
 RUN mise use -gy node@$NODE_VERSION
 
 RUN if [ "$PACKAGE_MANAGER" = "pnpm" ]; then \
-      SHELL=/bin/bash curl -fsSL https://get.pnpm.io/install.sh | sh -; \
+      curl -fsSL https://get.pnpm.io/install.sh | SHELL=/bin/bash sh -; \
     elif [ "$PACKAGE_MANAGER" = "yarn" ]; then \
       corepack enable && corepack prepare yarn@stable --activate; \
     elif [ "$PACKAGE_MANAGER" = "bun" ]; then \
